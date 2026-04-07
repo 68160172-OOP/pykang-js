@@ -36,22 +36,22 @@ public class GameManager {
         }
     }
 
-    // ⭐ เพิ่ม method นี้
+    //  เพิ่ม method นี้
     public Deck getDeck(){
         return deck;
     }
 
-    // ⭐ draw จาก deck
+    //  draw จาก deck
     public Card drawFromDeck(){
         return deck.draw();
     }
 
-    // ⭐ discard
+    //  discard
     public void addDiscard(Card c){
         discardPile.add(c);
     }
 
-    // ⭐ ตรวจ Kang
+    //  ตรวจ Kang
     public boolean isKang(ArrayList<Card> hand){
 
         HashMap<String,Integer> map = new HashMap<>();
