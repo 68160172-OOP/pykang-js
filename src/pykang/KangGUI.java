@@ -35,7 +35,7 @@ public class KangGUI extends JFrame {
         table.setOpaque(false);
         add(table);
 
-        // ---------------------- BOT1 (ด้านบน) -------------------------
+        // ---------------------- บอท1ข้างบน -------------------------
 
         JPanel botTopWrapper = new JPanel(new BorderLayout());
         botTopWrapper.setOpaque(false);
@@ -54,14 +54,14 @@ public class KangGUI extends JFrame {
         table.add(botTopWrapper,BorderLayout.NORTH);
 
 
-        // ------- CENTER AREA ----------------
+        // ------- ตรงกลาง ----------------
 
         JPanel center = new JPanel(new BorderLayout());
         center.setOpaque(false);
         table.add(center,BorderLayout.CENTER);
 
 
-        // ----------------- BOT2 (ซ้าย) -------------------
+        // ----------------- บอท2ซ้าย -------------------
 
         JPanel botLeftWrapper = new JPanel(new BorderLayout());
         botLeftWrapper.setOpaque(false);
@@ -83,7 +83,7 @@ public class KangGUI extends JFrame {
         center.add(botLeftWrapper,BorderLayout.WEST);
 
 
-        // ------------- BOT3 (ขวา) --------------
+        // ------------- บอท3ขวา --------------
 
         JPanel botRightWrapper = new JPanel(new BorderLayout());
         botRightWrapper.setOpaque(false);
@@ -135,7 +135,7 @@ public class KangGUI extends JFrame {
         center.add(middle,BorderLayout.CENTER);
 
 
-        // ---------------- PLAYER AREA ----------------
+        // ---------------- พื้นที่ตรงคนเล่น ----------------
 
         JPanel bottom = new JPanel(new BorderLayout());
         bottom.setOpaque(false);
