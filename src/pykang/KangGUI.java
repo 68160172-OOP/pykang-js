@@ -66,7 +66,7 @@ public class KangGUI extends JFrame {
         JPanel botLeftWrapper = new JPanel(new BorderLayout());
         botLeftWrapper.setOpaque(false);
 
-        // ⭐ ซ้ายดี
+        //  ซ้ายดี
         botLeftWrapper.setBorder(BorderFactory.createEmptyBorder(0,140,0,0));
 
         botLeftPanel = new JPanel(new GridLayout(5,1,5,5));
@@ -88,7 +88,7 @@ public class KangGUI extends JFrame {
         JPanel botRightWrapper = new JPanel(new BorderLayout());
         botRightWrapper.setOpaque(false);
 
-        // ⭐ ขวาร้าย
+        //  ขวาร้าย
         botRightWrapper.setBorder(BorderFactory.createEmptyBorder(0,0,0,140));
 
         botRightPanel = new JPanel(new GridLayout(5,1,5,5));
