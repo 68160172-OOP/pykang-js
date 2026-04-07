@@ -29,11 +29,11 @@ public class CardBack extends JPanel {
         g2.setColor(Color.WHITE);
         g2.fillRoundRect(0,0,getWidth()-5,getHeight()-5,15,15);
 
-        // border
+        //กรอบ
         g2.setColor(Color.GRAY);
         g2.drawRoundRect(0,0,getWidth()-5,getHeight()-5,15,15);
 
-        // text
+        // ข้อความ
         g2.setColor(new Color(180,0,0));
         g2.setFont(new Font("Tahoma",Font.BOLD,14));
 
